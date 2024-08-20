@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+body {
+  background-image: url(giraffe.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  background-color: #DA7297;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.link {
+  padding: 10px 40px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.change {
+  padding: 10px;
+  border-radius: 20px;
+
+}
+
+button:hover,
+button:focus {
+  background-color: #FFB4C2;
+}
+/* .container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+
+} */
+
+.cont {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  margin: 10px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search {
+   width: 400px;
+ margin-top: 15px;
+  padding: 10px;
+  /* background-color: transparent; */
+  border-radius: 25px;
+  padding-left: 40px;
 }
+
+input {
+
+  background-image: url(https://img.icons8.com/ios/30/search--v1.png);
+
+  background-repeat: no-repeat;
+  background-position: 10px;  
+
+}
+

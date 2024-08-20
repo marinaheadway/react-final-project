@@ -1,25 +1,58 @@
-import logo from './logo.svg';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
+
 import './App.css';
+import Backet from './Products';
+import { useState } from 'react';
+
+
+import Home from './Home';
+// import { Route, Routes } from 'react-router';
+import AllProduct from './AllProduct/AllProduct';
+import About from "./About";
+import Order from "./Order";
+import Delivery from "./Delivery";
+import Help from "./Help";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+ 
+    <Router>
+      <nav>
+      <Link to ="/"className="link">Магазин</Link>
+        <Link to ="/about"className="link">О нас</Link>
+        <Link to ="/order" className="link">Заказы</Link>
+        <Link to ="/delivery" className="link">Доставка</Link>
+        <Link to ="/help" className="link">Помощь</Link>
+      </nav>
+  
+
+    <Routes>
+    <Route path = "/" element ={<Home/>}/>
+      <Route path = "/about" element ={<About/>}/>
+       <Route path = "/order" element ={<Order/>}/>
+       <Route path = "/delivery" element ={<Delivery/>}/>
+       <Route path = "/help" element ={<Help/>}/>
+      
+    </Routes>
+    </Router>
+
+
+
+  )
+
+  // const [products, setProducts]=useState(data);
+  // return (
+  //   <div className="App">
+     
+  //    <Backet itemForSale ={products}/>
+  //   </div>
+  // );
 }
 
 export default App;
