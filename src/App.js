@@ -9,23 +9,27 @@ import {
 import './App.css';
 import Backet from './Products';
 import { useState } from 'react';
+import { useEffect } from "react";
 
 
 import Home from './Home';
 // import { Route, Routes } from 'react-router';
-import AllProduct from './AllProduct/AllProduct';
-import About from "./About";
+
+// import About from "./About";
 import Order from "./Order";
 import Delivery from "./Delivery";
 import Help from "./Help";
 
+
 function App() {
+
+  
   return (
  
     <Router>
       <nav>
       <Link to ="/"className="link">Магазин</Link>
-        <Link to ="/about"className="link">О нас</Link>
+        {/* <Link to ="/about"className="link">О нас</Link> */}
         <Link to ="/order" className="link">Заказы</Link>
         <Link to ="/delivery" className="link">Доставка</Link>
         <Link to ="/help" className="link">Помощь</Link>
@@ -34,10 +38,10 @@ function App() {
 
     <Routes>
     <Route path = "/" element ={<Home/>}/>
-      <Route path = "/about" element ={<About/>}/>
+      {/* <Route path = "/about" element ={<About/>}/> */}
        <Route path = "/order" element ={<Order/>}/>
        <Route path = "/delivery" element ={<Delivery/>}/>
-       <Route path = "/help" element ={<Help/>}/>
+       <Route path = "/help" element = {<Help/>}/>
       
     </Routes>
     </Router>
@@ -46,13 +50,7 @@ function App() {
 
   )
 
-  // const [products, setProducts]=useState(data);
-  // return (
-  //   <div className="App">
-     
-  //    <Backet itemForSale ={products}/>
-  //   </div>
-  // );
+
 }
 
 export default App;

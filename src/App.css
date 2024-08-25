@@ -1,17 +1,10 @@
-body {
-  background-image: url(giraffe.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 
-}
 
 nav {
   background-color: #DA7297;
   display: flex;
   justify-content: center;
-  padding: 10px;
+  padding: 8px;
 }
 
 .link {
@@ -65,3 +58,7 @@ input {
 
 }
 
+.header {
+  display: flex;
+justify-content: center;
+}

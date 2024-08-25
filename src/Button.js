@@ -1,12 +1,12 @@
-import { useState } from "react";
+import { useState, searchTerm } from "react";
 import { data } from "./data";
 
 function Button ({setProducts}) {
     const filteredProducts=(searchTerm)=>{
-        const newProductsArray=data.filter(item=>item.searchTerm.includes(searchTerm))
+        const newProductsArray=data.filter(item=>item.searchTerm.includes(searchTerm))   //здесь мы пишем item.searchTerm , чтобы фильтровать по категориям//
         setProducts(newProductsArray)
     }
-
+   
 
 const[mySearch, setMySearsh] = useState('')
 
@@ -21,7 +21,11 @@ const[mySearch, setMySearsh] = useState('')
 const finalSearch=(e)=> {
     e.preventDefault();
     setWordSubmitted(mySearch)
+    const newProductsArray=data.filter(item=>item.name.toLowerCase().includes(mySearch))  //здесь мы пишем item.name , чтобы искать через поисковую строку//
+    setProducts(newProductsArray)
 }
+    
+
     return (
         <div >
   
@@ -31,14 +35,11 @@ const finalSearch=(e)=> {
             </form>
         </div>
 
-        <div className="cont">
-        <button onClick={finalSearch}>
-            <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/search.png" alt="search"/>
-            </button>
-        </div>
+  
 
         <div className="cont">  
-<button className="change" onClick={()=> filteredProducts("")}>Все</button>
+        {/* //чтобы отображались все товары в жанной категории пишем  setProducts(data)// */}
+<button className="change" onClick={()=> setProducts(data)}>Все</button>  
 <button className="change" onClick={()=> filteredProducts("Мода")}>Мода</button>
 <button className="change" onClick={()=> filteredProducts("Путешествия")}>Путешествия</button>
 <button className="change" onClick={()=> filteredProducts("Дом")}>Дом</button>
@@ -49,11 +50,7 @@ const finalSearch=(e)=> {
  </div>
  </div>
 
-
-
- 
-
-     
+    
     )
 }
 

@@ -1,3 +1,5 @@
+// import img from 
+
 export const data = [
     {
         id: 1,

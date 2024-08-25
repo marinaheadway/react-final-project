@@ -1,0 +1,35 @@
+.active {
+    padding: 10px 30px;
+    border: 1px solid black;
+    cursor: pointer;
+
+     margin-left: 10px;
+    margin-right: 10px;
+    
+
+}
+
+.default {
+    padding: 10px 30px;
+    border: 1px solid black;
+    cursor: pointer;
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content {
+    padding: 50px 30px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.show {
+    display: flex;
+    justify-content: end;
+    margin-top: -10px;
+    font-size: large;
+
+ 
+}
