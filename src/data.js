@@ -1,4 +1,5 @@
-// import img from 
+
+import blanketBasilik from "./assets/blanket Basilik.jpg";
 
 export const data = [
     {
@@ -7,6 +8,7 @@ export const data = [
         searchTerm: "Дом",
         price: 25,
         img: ["blanket Basilik","blanket Basilik2" ],
+        // img: [{"blanketBasilik"}, {"blanket Basilik2"} ],
         category: "Спальня"
     },
     {
@@ -423,3 +425,5 @@ export const data = [
 
 
       ]
+
+      export default data;
