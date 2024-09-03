@@ -1,5 +1,112 @@
 
-import blanketBasilik from "./assets/blanket Basilik.jpg";
+import blanketBasilik from "./asset/blanket Basilik.jpg";
+import blanketBasilik2 from "./asset/blanket Basilik2.jpg";
+import blanketBlue from "./asset/blanket blue.jpg";
+import blanketBlue2 from "./asset/blanket blue2.jpg";
+import blanketEtnick from "./asset/Blanket Etnick.jpg";
+import blanketEtnick2 from "./asset/Blanket Etnick2.jpg";
+import blanketMulticolor1 from "./asset/blanket multicolor (1).jpg";
+import blanketMulticolor from "./asset/blanket multicolor.jpg";
+import blanketPandora from "./asset/blanket Pandora.jpg";
+import blanketPandora2 from "./asset/blanket Pandora2.jpg";
+import blanketKidAstro from "./asset/blanket kid astro.jpg";
+import blanketKidAstro2 from "./asset/blanket kid astro2.jpg";
+import blanketKidDinaz from "./asset/blanket kid Dinaz.jpg";
+import blanketKidDinaz2 from "./asset/blanket kid Dinaz2.jpg";
+import blanketKidPanda from "./asset/blanket kid multicolor.jpg";
+import blanketKidPanda2 from "./asset/blanket kid multicolor2.jpg";
+import blanketKidRose from "./asset/blanket kid rose.jpg";
+import blanketKidRose2 from "./asset/blanket kid rose2.jpg";
+import papierCity from "./asset/papier city.jpeg";
+import papierCity2 from "./asset/papier city2.jpeg";
+import papierGarden from "./asset/papier garden.jpg";
+import papierGarden2 from "./asset/papier garden2.jpg";
+import papierDune from "./asset/papier Dune.jpg";
+import papierDune2 from "./asset/papier Dune2.jpg";
+import papierGreyForest from "./asset/papier grey Forest.jpg";
+import papierGreyForest2 from "./asset/papier grey Forest2.jpeg";
+import papierCharlotte from "./asset/papier kid Charlotte.jpeg";
+import papierCharlotte2 from "./asset/papier kid Charlotte2.jpeg";
+import papierKidZoo from "./asset/papier kid Zoo.jpeg";
+import papierKidZoo2 from "./asset/papier kid Zoo2.jpeg";
+import papierKid from "./asset/papier kid.jpeg";
+import papierKid2 from "./asset/papier kid2.jpeg";
+import papierParadase from "./asset/papier paradase.jpeg";
+import papierParadase2 from "./asset/papier paradase2.jpeg";
+import papierVert from "./asset/papier Vert.jpeg";
+import papierVert2 from "./asset/papier Vert2.jpeg";
+import backet2Pedale from "./asset/backet 2pedale.jpg";
+import backet2Pedale2 from "./asset/backet 2pedale2.jpg";
+import backetAkiraPedale from "./asset/backet Akira pedale.jpg";
+import backetAkiraPedale2 from "./asset/backet Akira pedale2.jpg";
+import backetBluePedale from "./asset/backet blue pedale.jpg";
+import backetBluePedale2 from "./asset/backet blue pedale2.jpg";
+import backetBlue from "./asset/backet blue.jpg";
+import backetBlue2 from "./asset/backet blue2.jpg";
+import backetBrossePedale from "./asset/backet brosse pedale.jpg";
+import backetBrossePedale2 from "./asset/backet brosse pedale2.jpg";
+import backetJuane from "./asset/backet juane.jpg";
+import backetJuane2 from "./asset/backet juane2.jpg";
+import backetPastelPedale from "./asset/backet Pastel pedale.jpg";
+import backetPastelPedale2 from "./asset/backet Pastel pedale2.jpg";
+import backetRoundRed from "./asset/backet round red.jpg";
+import backetRoundRed2 from "./asset/backet round red2.jpg";
+import backetRoundRose from "./asset/backet round rose.jpg";
+import backetRoundRose2 from "./asset/backet round rose2.jpg";
+import backetRoundViolet from "./asset/backet round violet.jpg";
+import backetRoundViolet2 from "./asset/backet round violet2.jpg";
+import backetVert from "./asset/backet vert.jpg";
+import backetVert2 from "./asset/backet vert2.jpg";
+import backetWood from "./asset/backet wood.jpg";
+import backetWood2 from "./asset/backet wood2.jpg";
+import carpetBathBeige from "./asset/carpet bath beige.jpg";
+import carpetBathBeige2 from "./asset/carpet bath beige2.jpg";
+import carpetBathLavanda from "./asset/carpet bath lavanda.jpg";
+import carpetBathLavanda2 from "./asset/carpet bath lavanda2.jpg";
+import carpetBathSafran from "./asset/carpet bath safran.jpg";
+import carpetBathSafran2 from "./asset/carpet bath safran2.jpg";
+import curtainBathBlue from "./asset/curtain bath blue.jpg";
+import curtainBathBlue2 from "./asset/curtain bath blue2.jpg";
+import curtainBathElle from "./asset/curtain bath elle.jpg";
+import curtainBathElle2 from "./asset/curtain bath elle2.jpg";
+import curtainBathWhite from "./asset/curtain bath white.jpg";
+import curtainBathWhite2 from "./asset/curtain bath white2.jpg";
+import kids from "./asset/kids.jpg";
+import kids2 from "./asset/kids2.jpg";
+import knifeS from "./asset/knife s.jpg";
+import knifeS2 from "./asset/knife s2.jpg";
+import knifeSm from "./asset/knife sm.jpg";
+import knifeSm2 from "./asset/knife sm2.jpg";
+import knifeSetSm from "./asset/knife set sm.jpg";
+import knifeSetSm2 from "./asset/knife set sm2.jpg";
+import knifeSet from "./asset/knife set.jpg";
+import knifeSet2 from "./asset/knife set2.jpg";
+import mixeur from "./asset/mixeur.jpg";
+import mixeur2 from "./asset/mixeur2.jpg";
+import robe from "./asset/robe.jpg";
+import robe2 from "./asset/robe2.jpg";
+import shoes2 from "./asset/shoes2.jpg";
+import shoess from "./asset/shoess.jpg";
+import vacuumFloor from "./asset/vacuum floor.jpg";
+import vacuumFloor2 from "./asset/vacuum floor2.jpg";
+import vacuum from "./asset/vacuum.jpg";
+import vacuum2 from "./asset/vacuum2.jpg";
+import velo from "./asset/velo.jpg";
+import velo2 from "./asset/velo2.jpg";
+import vocation from "./asset/vocation.jpg";
+import vocation2 from "./asset/vocation2.jpg";
+import brush from "./asset/brush.jpg";
+import brush2 from "./asset/brush2.jpg";
+import brushPink from "./asset/brush pink.jpg";
+import brushPink2 from "./asset/brush pink2.jpg";
+import cafe from "./asset/cafe.jpg";
+import cafe2 from "./asset/cafe2.jpg";
+import beaut from "./asset/beaut.jpg";
+import beaut2 from "./asset/beaut2.jpg";
+
+
+
+
 
 export const data = [
     {
@@ -7,8 +114,8 @@ export const data = [
         name: "Постельное белье Basilik",
         searchTerm: "Дом",
         price: 25,
-        img: ["blanket Basilik","blanket Basilik2" ],
-        // img: [{"blanketBasilik"}, {"blanket Basilik2"} ],
+        img: [blanketBasilik,blanketBasilik2 ],
+     
         category: "Спальня"
     },
     {
@@ -16,7 +123,7 @@ export const data = [
         name: "Постельное белье Лагуна",
         searchTerm: "Дом",
         price: 25,
-        img: ["blanket blue", "blanket blue2"],
+        img: [blanketBlue, blanketBlue2],
         category: "Спальня"
     }, 
     {
@@ -24,7 +131,7 @@ export const data = [
         name: "Постельное белье Etnick ",
         searchTerm: "Дом",
         price: 25,
-        img: ["blanket Etnick", "blanket Etnick2"],
+        img: [blanketEtnick, blanketEtnick2],
         category: "Спальня"
     }, 
     {
@@ -32,7 +139,7 @@ export const data = [
         name: "Постельное белье Multicolor ",
         searchTerm: "Дом",
         price: 25,
-        img: ["blanket multicolor","blanket multicolor2"],
+        img: [blanketMulticolor1,blanketMulticolor],
         category: "Спальня"
     }, 
     
@@ -41,7 +148,7 @@ export const data = [
         name: "Постельное белье Pandora ",
         searchTerm: "Дом",
         price: 25,
-        img: ["blanket Pandora",  "blanket Pandora2"],
+        img: [blanketPandora,  blanketPandora2],
         category: "Спальня"
     }, 
 
@@ -50,7 +157,7 @@ export const data = [
         name: "Постельное белье детское Космос",
         searchTerm: ["Дом", "Дети"],
         price: 15,
-        img: ["blanket astro", "blanket astro2"],
+        img: [ blanketKidAstro,  blanketKidAstro2],
         category: "Спальня"
     }, 
     {
@@ -58,7 +165,7 @@ export const data = [
         name: "Постельное белье детское Диназавры",
         searchTerm: ["Дом", "Дети"],
         price: 15,
-        img: ["blanket Dinaz","blanket Dinaz2"],
+        img: [blanketKidDinaz,blanketKidDinaz2],
         category: "Спальня"
     }, 
     {
@@ -66,7 +173,7 @@ export const data = [
         name: "Постельное белье детское Роза",
         searchTerm: ["Дом", "Дети"],
         price: 15,
-        img: ["blanket rose","blanket rose2"],
+        img: [blanketKidRose,blanketKidRose2],
         category: "Спальня"
     }, 
     {
@@ -74,7 +181,7 @@ export const data = [
         name: "Обои City",
         searchTerm: "Дом",
         price: 45,
-        img: ["papier city","papier city2"],
+        img: [papierCity ,papierCity2],
         category: "Обои, Спальня"
     }, 
     {
@@ -82,7 +189,7 @@ export const data = [
         name: "Обои Dune",
         searchTerm: "Дом",
         price: 45,
-        img: ["papier Dune","papier Dune2"],
+        img: [papierDune,papierDune2],
           category: "Обои, Спальня"
     }, 
     {
@@ -90,7 +197,7 @@ export const data = [
         name: "Обои Garden",
         searchTerm: "Дом",
         price: 45,
-        img: ["papier garden","papier garden2"],
+        img: [papierGarden,papierGarden2],
        category: "Обои, Спальня"
     }, 
     {
@@ -98,7 +205,7 @@ export const data = [
         name: "Обои  Grey Forest",
         searchTerm: "Дом",
         price: 45,
-        img: ["papier grey Forest","papier grey Forest2"],
+        img: [ papierGreyForest, papierGreyForest2],
         category: "Обои"
     }, 
     {
@@ -106,7 +213,7 @@ export const data = [
         name: "Обои Paradise",
         searchTerm: "Дом",
         price: 45,
-        img: ["papier paradase","papier paradase2"],
+        img: [papierParadase,papierParadase2],
         category: "Обои"
     }, 
     {
@@ -114,7 +221,7 @@ export const data = [
         name: "Обои Vert",
         searchTerm: "Дом",
         price: 45,
-        img: ["papier Vert","papier Vert2",],
+        img: [papierVert,papierVert2,],
         category: "Обои, Спальня, Дом" 
     }, 
     {
@@ -122,7 +229,7 @@ export const data = [
         name: "Обои детские Шарлотта",
         searchTerm: ["Дети", "Дом"],
         price: 45,
-        img: ["papier Charlotte","papier Charlotte2"],
+        img: [ papierCharlotte, papierCharlotte2],
         category: "Обои"
     }, 
     {
@@ -130,7 +237,7 @@ export const data = [
         name: "Обои детские Zoo",
         searchTerm: ["Дети", "Дом"],
         price: 45,
-        img: ["papier Zoo","papier Zoo2"],
+        img: [papierKidZoo ,papierKidZoo2],
         category: "Обои"
     }, 
     {
@@ -138,7 +245,7 @@ export const data = [
         name: "Обои детские Kids",
         searchTerm: ["Дети", "Дом"],
         price: 45,
-        img: ["papier kid","papier kid2"],
+        img: [papierKid,papierKid2],
         category: "Обои"
     }, 
 
@@ -147,7 +254,7 @@ export const data = [
         name: "Корзина 2 педали",
         searchTerm: "Дом",
         price: 15,
-        img: ["backet 2pedale","backet 2pedale2"],
+        img: [backet2Pedale,backet2Pedale2],
         category: "Ванная"
     },
 
@@ -156,7 +263,7 @@ export const data = [
         name: "Корзина с педалью Akira",
         searchTerm: "Дом",
         price: 15,
-        img: ["backet Akira pedale","backet Akira pedale2"],
+        img: [backetAkiraPedale,backetAkiraPedale2],
         category: "Ванная"
     },
 
@@ -165,7 +272,7 @@ export const data = [
         name: "Корзина с педалью Blue",
         searchTerm: "Дом",
         price: 15,
-        img: ["backet blue pedale","backet blue pedale2"],
+        img: [backetBluePedale,backetBluePedale2],
         category: "Ванная"
     },
     {
@@ -173,7 +280,7 @@ export const data = [
         name: "Корзина Blue",
         searchTerm: "Дом",
         price: 15,
-        img: ["backet blue","backet blue2"],
+        img: [backetBlue,backetBlue2],
         category: "Ванная"
     },
 
@@ -182,7 +289,7 @@ export const data = [
         name: "Корзина Brosse",
         searchTerm: "Дом",
         price: 15,
-        img: ["backet brosse pedale","backet brosse pedale2"],
+        img: [backetBrossePedale,backetBrossePedale2],
         category: "Ванная"
     },
     {
@@ -190,7 +297,7 @@ export const data = [
         name: "Корзина Juane",
         searchTerm: "Дом",
         price: 15,
-        img: ["backet juane", "backet juane2"],
+        img: [backetJuane, backetJuane2],
         category: "Ванная"
     },
 
@@ -199,7 +306,7 @@ export const data = [
         name: "Корзина с педалью Pastel",
         searchTerm: "Дом",
         price: 15,
-        img: ["backet Pastel pedale","backet Pastel pedale2"],
+        img: [backetPastelPedale, backetPastelPedale2],
         category: "Ванная"
     },
     
@@ -209,7 +316,7 @@ export const data = [
         name: "Корзина круглая Rose",
         searchTerm: "Дом",
         price: 10,
-        img: ["backet round rose","backet round rose2" ],
+        img: [backetRoundRose,backetRoundRose2 ],
         category: "Ванная"
     },
     {
@@ -217,7 +324,7 @@ export const data = [
         name: "Корзина круглая Violet",
         searchTerm: "Дом",
         price: 10,
-        img: ["backet round violet", "backet round violet2"],
+        img: [backetRoundViolet, backetRoundViolet2],
         category: "Ванная"
     },
     {
@@ -225,7 +332,7 @@ export const data = [
         name: "Корзина круглая Vert",
         searchTerm: "Дом",
         price: 10,
-        img: ["backet round vert","backet round vert2"],
+        img: [backetVert ,backetVert2],
         category: "Ванная"
     },
     {
@@ -233,7 +340,7 @@ export const data = [
         name: "Корзина круглая Wood",
         searchTerm: "Дом",
         price: 10,
-        img: ["backet round wood", "backet round wood2"],
+        img: [backetWood, backetWood2],
         category: "Ванная"
     },
 
@@ -242,7 +349,7 @@ export const data = [
         name: "Коврик в ванную Beige",
         searchTerm: "Дом",
         price: 17,
-        img: ["]carpet bath beiege","carpet bath beiege2"],
+        img: [carpetBathBeige,carpetBathBeige2],
         category: "Ванная"
     },
     {
@@ -250,7 +357,7 @@ export const data = [
         name: "Коврик в ванную Lavanda",
         searchTerm: "Дом",
         price: 17,
-        img: ["carpet bath lavanda","carpet bath lavanda2"],
+        img: [carpetBathLavanda,carpetBathLavanda2],
         category: "Ванная"
     },
     {
@@ -258,7 +365,7 @@ export const data = [
         name: "Коврик в ванную Safran",
         searchTerm: "Дом",
         price: 17,
-        img: ["carpet bath safran","carpet bath safran2"],
+        img: [carpetBathSafran,carpetBathSafran2],
         category: "Ванная"
     },
     {
@@ -266,7 +373,7 @@ export const data = [
         name: "Коврик в ванную Blue",
         searchTerm: "Дом",
         price: 17,
-        img: ["carpet bath blue","carpet bath blue2"],
+        img: [curtainBathBlue,curtainBathBlue2],
         category: "Ванная"
     },
   
@@ -275,7 +382,7 @@ export const data = [
         name: "Коврик в ванную White",
         searchTerm: "Дом",
         price: 17,
-        img: ["carpet bath white", "carpet bath white2"],
+        img: [curtainBathWhite, curtainBathWhite2],
         category: "Ванная"
     },
     {
@@ -283,7 +390,7 @@ export const data = [
         name: "Нож маленький",
         searchTerm: "Дом",
         price: 30,
-        img: ["knife s","knife s2"],
+        img: [knifeS,knifeS2],
        category: "Кухня"
     },
     {
@@ -291,7 +398,7 @@ export const data = [
         name: "Набор ножей, японская сталь, размер S/M",
         searchTerm: "Дом",
         price: 50,
-        img: ["knife set sm","knife set sm2"],
+        img: [knifeSetSm, knifeSetSm2],
         category: "Кухня"
     },
     {
@@ -299,7 +406,7 @@ export const data = [
         name: "Набор ножей, японская сталь",
         searchTerm: "Дом",
         price: 60,
-        img: ["knife set ","knife set2"],
+        img: [knifeSet, knifeSet2 ],
         category: "Кухня"
     },
     {
@@ -307,7 +414,7 @@ export const data = [
         name: "Нож японская сталь, размер S/M",
         searchTerm: "Дом",
         price: 65,
-        img: ["knife sm ","knife sm2"],
+        img: [knifeSm,knifeSm2],
         category: "Кухня"
     },
     {
@@ -315,7 +422,7 @@ export const data = [
         name: "Зубная щетка электрическая розовая",
         searchTerm: ["Красота",  "Дом"],
         price: 20,
-        img: ["brush pink", "brush pink2"],
+        img: [brushPink, brushPink2],
         category: "Техника"
     },
     {
@@ -323,7 +430,7 @@ export const data = [
         name: "Зубная щетка электрическая",
         searchTerm:["Красота",  "Дом"],
         price: 20,
-        img: ["brush","brush2"],
+        img: [brush ,brush2],
         category: "Техника"
     },
     {
@@ -331,7 +438,7 @@ export const data = [
         name: "Кофеварка",
         searchTerm: "Дом",
         price: 25,
-        img: ["cafe", "cafe2"],
+        img: [cafe, cafe2],
         category: "Техника"
     },
     {
@@ -339,7 +446,7 @@ export const data = [
         name: "Миксер",
         searchTerm: "Дом",
         price: 24,
-        img: ["mixeur","mixeur2"],
+        img: [mixeur,mixeur2],
         category: "Техника"
     },
     {
@@ -347,7 +454,7 @@ export const data = [
         name: "Пылесос",
         searchTerm: "Дом",
         price: 24,
-        img: ["vacuum", "vacuum2"],
+        img: [vacuum, vacuum2],
         category: "Техника"
     },
     {
@@ -355,7 +462,7 @@ export const data = [
         name: "Пылесос моющий",
         searchTerm: "Дом",
         price: 24,
-        img: ["vacuum floor", "vacuum floor2"],
+        img: [vacuumFloor, vacuumFloor2],
         category: "Техника"
     },
     {
@@ -363,7 +470,7 @@ export const data = [
         name: "Платье",
         searchTerm: "Мода",
         price: 75,
-        img: ["robe", "robe2"],
+        img: [ robe, robe2],
         category: "Мода"
     },
     {
@@ -371,7 +478,7 @@ export const data = [
         name: "Тайланд",
         searchTerm: "Путешествия",
         price: 1200,
-        img: ["vocation", "vocation2"],
+        img: [vocation, vocation2],
         category: "Путешествия"
     }, 
     {
@@ -379,7 +486,7 @@ export const data = [
         name: "Детская одежда",
         searchTerm: "Дети",
         price: 30,
-        img: ["kids", "kids2"],
+        img: [kids, kids2],
         category: "Дети"
     }, 
     {
@@ -387,7 +494,7 @@ export const data = [
         name: "Сандали",
         searchTerm: ["Обувь", "Мода"],
         price: 85,
-        img: ["shoes", "shoes2"],
+        img: [shoes2, shoess],
         category: "Обувь "
     }, 
     {
@@ -395,7 +502,7 @@ export const data = [
         name: "Духи",
         searchTerm: "Красота",
         price: 55,
-        img: ["beaut", "beaut2"],
+        img: [beaut, beaut2],
         category: "Красота"
     }, 
     {
@@ -403,7 +510,7 @@ export const data = [
         name: "Велосипед",
         searchTerm: "Спорт",
         price: 950,
-        img: ["velo", "velo2"],
+        img: [velo, velo2],
         category: "Спорт"
     }, 
     {
@@ -411,7 +518,7 @@ export const data = [
         name: "Корзина круглая Red",
         searchTerm: "Дом",
         price: 10,
-        img: ["backet round red","backet round red2"],
+        img: [backetRoundRed,backetRoundRed2],
         category: "Ванная"
     },
     {
@@ -419,9 +526,17 @@ export const data = [
         name: "Коврик в ванную Elle",
         searchTerm: "Дом",
         price: 17,
-        img: ["carpet bath elle", "carpet bath elle2"],
+        img: [curtainBathElle, curtainBathElle2],
         category: "Ванная"
     },
+    {
+        id: 52,
+        name: "Постельное белье детское Панда",
+        searchTerm: ["Дом", "Дети"],
+        price: 15,
+        img: [blanketKidPanda,blanketKidPanda2],
+        category: "Спальня"
+    }, 
 
 
       ]

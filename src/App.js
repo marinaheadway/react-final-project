@@ -19,13 +19,25 @@ import Home from './Home';
 import Order from "./Order";
 import Delivery from "./Delivery";
 import Help from "./Help";
+import LoaderPage from "./Loader/LoaderPage";
 
 
 function App() {
 
+  const [stateLoader, setStateLoader] = useState(true);
+
+  useEffect (()=> {
+  const timer = setTimeout(()=> setStateLoader(false), 5000);
+  return ()=> clearTimeout(timer)
+
+  }, [])
   
   return (
- 
+    <div>
+ <div>
+  {stateLoader&&<LoaderPage/>}
+ </div>
+
     <Router>
       <nav>
       <Link to ="/"className="link">Магазин</Link>
@@ -45,7 +57,7 @@ function App() {
       
     </Routes>
     </Router>
-
+    </div>
 
 
   )
