@@ -1,4 +1,4 @@
-import { useState, searchTerm } from "react";
+import { useState} from "react";
 import { data } from "./data";
 
 function Button ({setProducts}) {
@@ -17,6 +17,7 @@ const[mySearch, setMySearsh] = useState('')
     }
 
     const [wordSubmitted, setWordSubmitted]= useState('');
+    // const setWordSubmitted= useState('');
 
 const finalSearch=(e)=> {
     e.preventDefault();
@@ -26,8 +27,11 @@ const finalSearch=(e)=> {
 }
     
 
+
     return (
+   
         <div >
+      
   
   <div className="cont">
         <form onSubmit={finalSearch}>

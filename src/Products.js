@@ -4,14 +4,14 @@ function Products ({itemForSale}) {
     return (
         <div className="product">
 {itemForSale.map ((index => {
-    const {id, name,  searchTerm, price, img} = index;
+    const {id, name, price, img} = index;
 
              
     return (
         <div className="product-card" key ={id}>
-           {/* <div className="prod"> */}
+         
             <Carousel img={img}/>
-           {/* </div> */}
+       
 
            <div className="info-container">
             <div className="product-info">

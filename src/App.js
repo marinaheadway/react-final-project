@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 
 import './App.css';
-import Backet from './Products';
+
 import { useState } from 'react';
 import { useEffect } from "react";
 

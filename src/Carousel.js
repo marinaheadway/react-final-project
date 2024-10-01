@@ -11,7 +11,7 @@ function Carousel ({img}) {
 const previosPlace = () => {
     setIndex((index => {
         index --;
-        if (index = 0) {     // чтобы не отматывал назад слайд//
+        if (index = 0) {        // чтобы не отматывал назад слайд//
             index = data.length - 1;
         }
         return index;

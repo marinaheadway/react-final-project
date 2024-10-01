@@ -37,14 +37,8 @@ const chosenProduct = (searchTerm) => {
 <Button setProducts= {setProduct}/>
 
 <Products itemForSale={product}/>
-
-
-
-
     </div>
 
-
-      
-    )
+        )
 }
 export default Home;
