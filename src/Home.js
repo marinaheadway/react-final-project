@@ -8,7 +8,6 @@ import assetImage from "./asset/giraffe.jpg";
 
 
 
-
 function Home () {
 
     useEffect (()=>{
@@ -18,7 +17,6 @@ function Home () {
         document.body.style.backgroundPosition = 'center';
         document.body.style.backgroundAttachment = 'fixed';
 
-
         return () => {
          document.body.style.backgroundImage= '';
         };
@@ -26,19 +24,14 @@ function Home () {
     }, []);
 
 const [product, setProduct]= useState(data)
-const chosenProduct = (searchTerm) => {
-    const newProducts= data.filter (element=> element.searchTerm===searchTerm);
-    setProduct(newProducts);
-}
+
 
     return (
         <div>
 
 <Button setProducts= {setProduct}/>
-
 <Products itemForSale={product}/>
     </div>
-
         )
 }
 export default Home;

@@ -8,20 +8,21 @@ function Button ({setProducts}) {
     }
    
 
-const[mySearch, setMySearsh] = useState('')
+const[mySearch, setMySearsh] = useState('');
 
     const myItemSearch =(e)=> {
        setMySearsh(e.target.value)
-       console.log(e.target.value)
+     
 
     }
 
-    const [wordSubmitted, setWordSubmitted]= useState('');
-    // const setWordSubmitted= useState('');
+    // const [wordSubmitted, setWordSubmitted]= useState('');
+    
 
 const finalSearch=(e)=> {
     e.preventDefault();
-    setWordSubmitted(mySearch)
+    // setWordSubmitted(mySearch)
+    setMySearsh(mySearch)
     const newProductsArray=data.filter(item=>item.name.toLowerCase().includes(mySearch))  //здесь мы пишем item.name , чтобы искать через поисковую строку//
     setProducts(newProductsArray)
 }
