@@ -24,19 +24,19 @@ import LoaderPage from "./Loader/LoaderPage";
 
 function App() {
 
-  const [stateLoader, setStateLoader] = useState(true);
+  // const [stateLoader, setStateLoader] = useState(true);
 
-  useEffect (()=> {
-  const timer = setTimeout(()=> setStateLoader(false), 5000);
-  return ()=> clearTimeout(timer)
+  // useEffect (()=> {
+  // const timer = setTimeout(()=> setStateLoader(false), 5000);
+  // return ()=> clearTimeout(timer)
 
-  }, [])
+  // }, [])
   
   return (
     <div>
- <div>
+ {/* <div>
   {stateLoader&&<LoaderPage/>}
- </div>
+ </div> */}
 
     <Router>
       <nav>

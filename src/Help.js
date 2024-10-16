@@ -9,13 +9,17 @@ function Help () {
 
         useEffect (()=>{
             document.body.style.backgroundImage = `url(${assetImage})`;
-            document.body.style.backgroundSize = 'cover';
-            document.body.style.backgroundRepeat = 'no-repeat';
-            document.body.style.backgroundPosition = 'center';
-            document.body.style.backgroundAttachment = 'fixed';
+            // document.body.style.backgroundSize = 'cover';
+            // document.body.style.backgroundRepeat = 'no-repeat';
+            // document.body.style.backgroundPosition = 'center';
+            // document.body.style.backgroundAttachment = 'fixed';
     
             return () => {
              document.body.style.backgroundImage= '';
+             document.body.style.backgroundSize = 'cover';
+            document.body.style.backgroundRepeat = 'no-repeat';
+            document.body.style.backgroundPosition = 'center';
+            document.body.style.backgroundAttachment = 'fixed';
             };
             
         }, []);
