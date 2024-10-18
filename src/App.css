@@ -72,17 +72,17 @@ margin-top: 40px;
   flex-basis: 16%;
   padding: 2%;
 
-
 }
 
 .btn-container {
-  margin-left: 60px;
-  margin-top: -5px;
+
+  display: flex;
+  justify-content: center;
 }
 
 .info-container {
-  background-color: #E3A5C7;
-  width: 300px;
+  background-color: white;
+  width: 350px;
   text-align: center;
   margin-top: -10px;
    margin-left: 10px;

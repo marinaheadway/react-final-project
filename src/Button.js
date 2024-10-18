@@ -16,12 +16,11 @@ const[mySearch, setMySearsh] = useState('');
 
     }
 
-    // const [wordSubmitted, setWordSubmitted]= useState('');
-    
+  
 
 const finalSearch=(e)=> {
     e.preventDefault();
-    // setWordSubmitted(mySearch)
+   
     setMySearsh(mySearch)
     const newProductsArray=data.filter(item=>item.name.toLowerCase().includes(mySearch))  //здесь мы пишем item.name , чтобы искать через поисковую строку//
     setProducts(newProductsArray)

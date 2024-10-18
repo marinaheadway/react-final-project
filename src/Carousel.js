@@ -31,6 +31,7 @@ const nextPlace = () => {
     return (
        
   <div className="product-card">
+    
         <img src={img[index]} width="300px"  alt ="item"/>
 
       

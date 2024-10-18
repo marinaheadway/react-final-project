@@ -10,10 +10,11 @@ function Products ({itemForSale}) {
     return (
         <div className="product-card" key ={id}>
          
-            <Carousel img={img}/>
+            
        
 
            <div className="info-container">
+           <Carousel img={img}/>
             <div className="product-info">
                 <h3>{name}</h3>
               
